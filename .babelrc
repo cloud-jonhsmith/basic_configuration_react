@@ -1,0 +1,14 @@
+{
+  /* "useBabel": true,
+  "babelOptions": {
+    "babelrc": false,
+    "presets": [
+      [
+        "@babel/preset-env",
+        { "target": "last 2 versions, ie 11", "modules": false }
+      ]
+    ]
+  },
+  "babelCore": "@babel/core" */
+  "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/typescript"]
+}

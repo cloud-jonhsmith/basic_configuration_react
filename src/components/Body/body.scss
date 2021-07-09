@@ -1,0 +1,30 @@
+.text-yellow {
+  color: var(--body-bg);
+}
+
+.item-card {
+  transition: 1s;
+}
+
+.item-card:hover {
+  transition: 1s;
+  //transform: rotateY(180deg);
+  background: var(--gray);
+  cursor: pointer;
+  color: #fff;
+}
+
+.bg-color {
+  background: var(--body-bg);
+}
+
+.border-circle {
+  border-radius: 50% 50%;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
